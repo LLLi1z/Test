@@ -8,4 +8,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+    
+    private fun login(){
+        //登陆功能
+    }
+
+    private fun loadData(){
+        //网络获取数据
+    }
 }

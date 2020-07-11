@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--    文本框-->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#835E5E"
+        android:gravity="center"
+        android:text="zZLOVEZz的幸运抽奖"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+<!--    按钮-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#D65489"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="开始抽奖"
+        android:textColor="#FCFCFC"
+        android:textSize="20dp"
+        android:onClick="start" />
+
+</LinearLayout>
